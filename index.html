@@ -1,0 +1,192 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bella Hair Cosméticos</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+
+  <div class="logo">
+    💇 Bella Hair Cosméticos
+  </div>
+
+  <nav>
+    <a href="#">Início</a>
+    <a href="#produtos">Produtos</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+</header>
+
+<section class="hero">
+
+  <div class="hero-text">
+
+    <h1>Produtos Profissionais para Cabelos</h1>
+
+    <p>Compre online pelo WhatsApp</p>
+
+    <a
+      href="https://wa.me/5585999999999"
+      class="btn"
+      target="_blank"
+    >
+      Comprar Agora
+    </a>
+
+  </div>
+
+</section>
+
+<section class="produtos" id="produtos">
+
+  <h2>Nossos Produtos</h2>
+
+  <div class="cards">
+
+    <!-- 1 -->
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=1200&auto=format&fit=crop">
+      <h3>Shampoo Hidratante</h3>
+      <p>Hidratação profunda.</p>
+      <span>R$ 39,90</span>
+      <button onclick="comprar('Shampoo Hidratante')">Comprar</button>
+    </div>
+
+    <!-- 2 -->
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?q=80&w=1200&auto=format&fit=crop">
+      <h3>Máscara Capilar</h3>
+      <p>Recuperação intensa.</p>
+      <span>R$ 59,90</span>
+      <button onclick="comprar('Máscara Capilar')">Comprar</button>
+    </div>
+
+    <!-- 3 -->
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?q=80&w=1200&auto=format&fit=crop">
+      <h3>Óleo Reparador</h3>
+      <p>Controle de frizz.</p>
+      <span>R$ 29,90</span>
+      <button onclick="comprar('Óleo Reparador')">Comprar</button>
+    </div>
+
+    <!-- 4 -->
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?q=80&w=1200&auto=format&fit=crop">
+      <h3>Condicionador Nutritivo</h3>
+      <p>Maciez e brilho.</p>
+      <span>R$ 34,90</span>
+      <button onclick="comprar('Condicionador Nutritivo')">Comprar</button>
+    </div>
+
+    <!-- 5 -->
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=1200&auto=format&fit=crop">
+      <h3>Kit Crescimento</h3>
+      <p>Fortalecimento dos fios.</p>
+      <span>R$ 89,90</span>
+      <button onclick="comprar('Kit Crescimento')">Comprar</button>
+    </div>
+
+    <!-- 6 -->
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=1200&auto=format&fit=crop">
+      <h3>Leave-in Profissional</h3>
+      <p>Proteção térmica.</p>
+      <span>R$ 42,90</span>
+      <button onclick="comprar('Leave-in Profissional')">Comprar</button>
+    </div>
+
+    <!-- 7 -->
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1500840216050-6ffa99d75160?q=80&w=1200&auto=format&fit=crop">
+      <h3>Finalizador Cachos</h3>
+      <p>Definição perfeita.</p>
+      <span>R$ 37,90</span>
+      <button onclick="comprar('Finalizador Cachos')">Comprar</button>
+    </div>
+
+    <!-- 8 -->
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?q=80&w=1200&auto=format&fit=crop">
+      <h3>Sérum Antiqueda</h3>
+      <p>Redução da queda.</p>
+      <span>R$ 69,90</span>
+      <button onclick="comprar('Sérum Antiqueda')">Comprar</button>
+    </div>
+
+    <!-- 9 -->
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?q=80&w=1200&auto=format&fit=crop">
+      <h3>Escova Progressiva</h3>
+      <p>Liso intenso.</p>
+      <span>R$ 119,90</span>
+      <button onclick="comprar('Escova Progressiva')">Comprar</button>
+    </div>
+
+    <!-- 10 -->
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=1200&auto=format&fit=crop">
+      <h3>Tônico Capilar</h3>
+      <p>Estimula crescimento.</p>
+      <span>R$ 49,90</span>
+      <button onclick="comprar('Tônico Capilar')">Comprar</button>
+    </div>
+
+    <!-- 11 -->
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=1200&auto=format&fit=crop">
+      <h3>Ampola Reconstrutora</h3>
+      <p>Reconstrução imediata.</p>
+      <span>R$ 24,90</span>
+      <button onclick="comprar('Ampola Reconstrutora')">Comprar</button>
+    </div>
+
+    <!-- 12 -->
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1200&auto=format&fit=crop">
+      <h3>Kit Hidratação Total</h3>
+      <p>Tratamento completo.</p>
+      <span>R$ 129,90</span>
+      <button onclick="comprar('Kit Hidratação Total')">Comprar</button>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="contato" id="contato">
+
+  <h2>Contato</h2>
+
+  <p><strong>🏪 Loja:</strong> Bella Hair Cosméticos</p>
+
+  <p><strong>📍 Rua:</strong> Rua Floriano Peixoto, 250 - Centro - Fortaleza/CE</p>
+
+  <p><strong>📞 WhatsApp:</strong> (85) 99999-9999</p>
+
+  <a
+    href="https://wa.me/5585999999999"
+    class="btn"
+    target="_blank"
+  >
+    Falar no WhatsApp
+  </a>
+
+</section>
+
+<footer>
+  © 2026 Bella Hair Cosméticos
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
